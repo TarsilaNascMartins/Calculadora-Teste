@@ -1,0 +1,35 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+	   real a
+	   real b
+	   real resultado
+        real sinal
+        
+	     escreva("\nDigite o primeiro número: ")
+	     leia(a)
+	     escreva("\nEscolha operação \n 1. soma\n 2.subtração\n 3.divisão\n 4.multiplicação): ")
+	     leia(sinal)
+	     escreva("\nDigite o segundo número: ")
+	     leia(b)
+		
+           se (sinal == 1) { resultado = a + b
+           escreva("\n", a, " + " ,b, " = " ,resultado)}
+
+          se (sinal == 2) { resultado = a - b
+           escreva("\n", a, " - " ,b, " = ", resultado)}
+
+            se (sinal == 3) {
+           resultado = a / b
+           escreva("\n", a, " / " ,b, " = ", resultado)}
+           
+           se (sinal == 4) {
+           resultado = a * b
+           escreva("\n" , a, " * " ,b, " = ", resultado)}
+           escreva("\n\n\n FIIIIIIIM!!!!!\n")
+
+}
+}
